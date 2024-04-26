@@ -1,0 +1,137 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./assets/background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 5%;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.title{
+    color: white;
+    text-shadow: 0 0 2px #ffffff, 0 0 5px #ffffff, 0 0 2px #ffffff;
+}
+
+.title1{
+    color: white;
+    text-shadow: 0 0 2px #ffffff, 0 0 5px #ffffff, 0 0 2px #ffffff;
+}
+
+#textinput{
+    margin-bottom: 20px;
+    font-size: 18px;
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+    text-align: left;
+    resize: none;
+}
+
+#submit{
+    color: white;
+    background-color:rgba(0,255,0,0);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: greenyellow;
+    border-width: 3px;
+}
+
+#submitreg{
+    color: white;
+    background-color:rgba(0,255,0,0);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: greenyellow;
+    border-width: 3px;
+
+    margin-top: 15px;
+}
+
+@keyframes slideOut {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-340px);
+    }
+}
+
+@keyframes slideIn {
+    from {
+      transform: translateX(-340px);
+    }
+    to {
+      transform: translateX(0);
+    }
+}
+
+.slide-out {
+    animation: slideOut 0.2s ease-out forwards;
+}
+
+.slide-in {
+    animation: slideIn 0.2s ease-out forwards;
+}
+
+.reg{
+    border: none;
+    background: none;
+
+    color: red;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.back{
+    border: none;
+    background: none;
+
+    color: red;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.registercontainer{
+    flex: 0 0 auto;
+    width: 70%;
+    height: 60%;
+    margin-left: 60px;
+    flex-direction: column;
+}
+
+.logincontainer{
+    flex: 0 0 auto;
+    margin-left: 60px;
+    width: 70%;
+    height: 60%;
+    flex-direction: column;
+}
+
+.text{
+    color: #ffffff;
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>minage website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="logincontainer">
+                <h1 class="title">Login</h1>
+                <textarea placeholder="Saisissez votre token de connection." id="textinput"></textarea>
+                <button id="submit">Login</button><br>
+                <button class="reg">Pas de compte ? Créez-en un.</button>
+            </div>
+
+            <div class="registercontainer">
+              <h1 class="title1">Register</h1>
+              <p class="text">A login token will be given to you and saved in your device. You need to copy it and keep it to connect on other devices, if you loose your token you will not be able to get back your account except if a moderator know you and give you back.</p>
+              
+              <label style="color:white; font-weight: bold;">
+                <p style="color: grey; margin: 0;" class="secs">5 seconds left.</p>
+                <input type="checkbox" disabled>
+                I've read this text and i know what im doing!
+              </label><br>
+              <button id="submitreg">Register</button><br>
+              <button class="back">Retourner au login.</button>
+          </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
