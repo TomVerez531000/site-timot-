@@ -135,3 +135,9 @@ body{
 .text{
     color: #ffffff;
 }
+
+.secs{
+    color: grey;
+    margin: 0;
+    display: block;
+}
